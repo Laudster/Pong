@@ -4,6 +4,8 @@ int main()
 {
     SetTraceLogLevel(LOG_ERROR);
     InitWindow(1200, 800, "Pong");
+    SetConfigFlags(FLAG_WINDOW_TRANSPARENT);
+    SetWindowState(FLAG_WINDOW_UNDECORATED);
     InitAudioDevice();
     SetTargetFPS(60);
 
