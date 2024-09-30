@@ -1,4 +1,4 @@
-#include "raylib.h"
+#include "include/raylib.h"
 
 int main()
 {
@@ -7,9 +7,9 @@ int main()
     InitAudioDevice();
     SetTargetFPS(60);
 
-    Sound hit = LoadSound("hit.wav");
-    Sound win = LoadSound("win.wav");
-    Sound loss = LoadSound("loss.wav");
+    Sound hit = LoadSound("sounds/hit.wav");
+    Sound win = LoadSound("sounds/win.wav");
+    Sound loss = LoadSound("sounds/loss.wav");
 
     int playerPos = 300;
     int playerPoints = 0;
