@@ -1,6 +1,6 @@
 # Pong
 
-For å kompilere for windows tror jeg du jeg tenger å allerede ha kompilert raylib og bruke denne kommandoen
+For å kompilere for windows, plus allerede lenket raylib
 
 ```Shell
 gcc main.c -o pong -Iinclude/ -Llib/ -lraylib -lopengl32 -lgdi32 -lwinmm -mwindows
